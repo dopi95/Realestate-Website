@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.button {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center;s */
+  border-radius: 10px;
+  border: solid 1px #6cbe02;
+  height: 30px;
+  width: 100px;
+  transition: all 0.5s ease;
+  margin-left: 250px;
+  cursor: pointer;
+}
+.button:hover {
+  transform: scale(1.27);
+  transition: all 0.3s ease;
+  background-color: #222;
+  color: #6cbe02;
+}
+.nav-link {
+  font-size: 20px;
+}
+.lists {
+  display: flex;
+  margin-bottom: 50px;
+  height: 200px;
+  background-color: #ddd;
+}
+.nav-link ul {
+  display: flex;
+  gap: 20px;
+  margin-top: 80px;
+  margin-left: 500px;
+}
+.logo {
+  margin-top: 50px;
+  margin-left: 60px;
+}
+.nav-link ul li {
+  list-style-type: none;
+}
+.nav-link ul li a {
+  text-decoration: none;
+  color: #43c370;
+}
+.nav-link ul li a:hover {
+  color: #333;
+}
+.middle {
+  background: #fff;
+  width: 100%;
+  height: 100vh;
+}
+.types h1,
+h3 {
+  text-align: center;
+  color: #333;
+  padding-top: 10px;
+}
+.types h3 {
+  margin-top: 20px;
+}
+.img {
+  height: 100px;
+  width: 150px;
+  padding-left: 30px;
+  padding-top: 30px;
+  cursor: pointer;
+}
+/* .img:hover img {
+  transform: scale(1.2);
+} */
+.img-bor {
+  flex: 1;
+  border: 1px #ddd;
+  height: 550px;
+  width: 265px;
+}
+.img-bor:hover {
+  background-color: #8cd337;
+}
+
+.img-text h2 {
+  color: #333;
+  padding-left: 10px;
+}
+.img-text {
+  padding-top: 110px;
+}
+.img-text h2 {
+  padding-bottom: 20px;
+}
+.img-text p {
+  padding-bottom: 10px;
+  color: #0c0f07;
+}
+.img-text ul li {
+  list-style: none;
+  padding-left: 40px;
+}
+.img-text ul li p i {
+  color: #333;
+}
+.btn-primary {
+  background-color: #333;
+  border: none;
+  color: #8cd337;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 50px;
+}
+.prop {
+  padding: 70px;
+  display: flex;
+  gap: 10px;
+}
+
+.bo {
+  border-bottom: 1px solid #333;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+.apart i {
+  margin-right: 3px;
+}

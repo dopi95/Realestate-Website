@@ -1,0 +1,54 @@
+.footer {
+  background-color: #43c370;
+  height: 330px;
+  padding-top: 60px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+.fle {
+  display: flex;
+  justify-content: space-between;
+}
+.bo {
+  border-bottom: 1px solid #333;
+  margin-top: 40px;
+}
+.fle .fle h4,
+.fle p,
+.fle a {
+  color: #fff;
+}
+.fle i {
+  color: #fff;
+  cursor: pointer;
+}
+.copy p {
+  text-align: center;
+}
+.copy .p1 {
+  margin-top: 40px;
+}
+.row3 i {
+  cursor: pointer;
+  font-size: 20px;
+  gap: 10px;
+}
+.row3 i:hover {
+  color: #333;
+}
+.fle h4 {
+  padding-bottom: 10px;
+}
+.fle a,
+.fle i {
+  margin-bottom: 10px;
+}
+.fle a {
+  text-decoration: none;
+}
+.fle h4 {
+  color: #fff;
+}
+.copy p {
+  color: #fff;
+}
