@@ -1,0 +1,2 @@
+*.hack lingustic-language=PHP
+*.php lingustic-language=PHP
